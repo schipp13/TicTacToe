@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title> Home </title>
+<!-- link to styles -->
+<link rel="stylesheet" href="styles.css">
+<!-- link to scripts -->
+<script type="text/javascript" src="playersMove.js"></script>
+</head>
+<body>
+<div id="playersTurn">player one's turn
+</div>
+<div id="container">
+ <table id="board">
+   <tr>
+     <td id="r1c1" data-cellclicked="r1c1" onclick="playersMove(this)"></td>
+     <td id="r1c2" data-cellclicked="r1c2" onclick="playersMove(this)"></td>
+     <td id="r1c3" data-cellclicked="r1c3" onclick="playersMove(this)"></td>
+   </tr>
+   <tr> 
+     <td id="r2c1" data-cellclicked="r2c1" onclick="playersMove(this)"></td>
+     <td id="r2c2" data-cellclicked="r2c2" onclick="playersMove(this)"></td>
+     <td id="r2c3" data-cellclicked="r2c3" onclick="playersMove(this)"></td>
+   </tr>
+   <tr> 
+     <td id="r3c1" data-cellclicked="r3c1" onclick="playersMove(this)"></td>
+     <td id="r3c2" data-cellclicked="r3c2" onclick="playersMove(this)"></td>
+     <td id="r3c3" data-cellclicked="r3c3" onclick="playersMove(this)"></td>
+   </tr>
+ <table>
+</div>
+</body>
+</html>
