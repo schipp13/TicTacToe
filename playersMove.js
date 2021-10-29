@@ -1,4 +1,4 @@
-function playersMove(cellclicked){
+function playerMove(cellclicked){
   var cellvalue = cellclicked.getAttribute("data-cellclicked");
   var playerOne = true;;
   var Winner = false;
@@ -7,7 +7,7 @@ function playersMove(cellclicked){
  {*/
    
 
-  if(playerOne == true)
+  if(playerOne == true)s
   {
    document.getElementById(cellvalue).innerHTML='X';
   }
